@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
         /* defaults */
         double commanded_speed = 90;
         double commanded_angle_deg = 45.0;
-        double speed_stddev = 0.5;
-        double angle_stddev = 0.5;
+        double speed_stddev = 1.2;
+        double angle_stddev = 0.7;
         size_t n_trials = 10000;
 
         int opt;
