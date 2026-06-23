@@ -110,21 +110,21 @@ Flags may be given in any order; omitted parameters use their defaults.
 
 ```
 === Configuration ===
-Commanded speed       :   50.00 m/s
-Commanded angle       :   35.00 deg
-Speed std dev         :    0.50 m/s
-Angle std dev         :    0.50 deg
+Commanded speed       :   90.00 m/s
+Commanded angle       :   45.00 deg
+Speed std dev         :    1.20 m/s
+Angle std dev         :    0.70 deg
 Trials                :   10000
 
 Running simulation... Done!
 
 === Results ===
-Nominal range         :  239.46 m
-Range mean            :  239.51 m
-Range std dev         :    4.92 m
-Range min             :  221.13 m
-Range max             :  257.88 m
-Hit probability       :   71.84 %  [227-251 m window]
+Nominal range         :  825.69 m
+Range mean            :  825.54 m
+Range std dev         :   21.77 m
+Range min             :  742.31 m
+Range max             :  913.88 m
+Hit probability       :   94.35 %  [784-867 m window]
 ```
 
 (Exact numbers vary run to run, since each run is seeded from the system clock.)
